@@ -15,6 +15,7 @@
 		76AC78B61E64306B00A882F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AC78B41E64306B00A882F1 /* LaunchScreen.storyboard */; };
 		76AC78C11E64306B00A882F1 /* TRZXDVSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78C01E64306B00A882F1 /* TRZXDVSwitchTests.m */; };
 		76AC78CC1E64306B00A882F1 /* TRZXDVSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78CB1E64306B00A882F1 /* TRZXDVSwitchUITests.m */; };
+		76AC78DC1E6430C600A882F1 /* TRZXDVSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78DB1E6430C600A882F1 /* TRZXDVSwitch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		76AC78C71E64306B00A882F1 /* TRZXDVSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXDVSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC78CB1E64306B00A882F1 /* TRZXDVSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitchUITests.m; sourceTree = "<group>"; };
 		76AC78CD1E64306B00A882F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AC78DA1E6430C600A882F1 /* TRZXDVSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXDVSwitch.h; sourceTree = "<group>"; };
+		76AC78DB1E6430C600A882F1 /* TRZXDVSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				76AC78AA1E64306B00A882F1 /* AppDelegate.m */,
 				76AC78AC1E64306B00A882F1 /* ViewController.h */,
 				76AC78AD1E64306B00A882F1 /* ViewController.m */,
+				76AC78D91E6430AE00A882F1 /* TRZXDVSwitch */,
 				76AC78AF1E64306B00A882F1 /* Main.storyboard */,
 				76AC78B21E64306B00A882F1 /* Assets.xcassets */,
 				76AC78B41E64306B00A882F1 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				76AC78CD1E64306B00A882F1 /* Info.plist */,
 			);
 			path = TRZXDVSwitchUITests;
+			sourceTree = "<group>";
+		};
+		76AC78D91E6430AE00A882F1 /* TRZXDVSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78DA1E6430C600A882F1 /* TRZXDVSwitch.h */,
+				76AC78DB1E6430C600A882F1 /* TRZXDVSwitch.m */,
+			);
+			path = TRZXDVSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76AC78AE1E64306B00A882F1 /* ViewController.m in Sources */,
+				76AC78DC1E6430C600A882F1 /* TRZXDVSwitch.m in Sources */,
 				76AC78AB1E64306B00A882F1 /* AppDelegate.m in Sources */,
 				76AC78A81E64306B00A882F1 /* main.m in Sources */,
 			);
@@ -507,6 +521,7 @@
 				76AC78D21E64306B00A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76AC78D31E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				76AC78D51E64306B00A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76AC78D61E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				76AC78D81E64306B00A882F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
