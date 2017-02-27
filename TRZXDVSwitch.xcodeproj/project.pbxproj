@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76AC78A81E64306B00A882F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78A71E64306B00A882F1 /* main.m */; };
+		76AC78AB1E64306B00A882F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78AA1E64306B00A882F1 /* AppDelegate.m */; };
+		76AC78AE1E64306B00A882F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78AD1E64306B00A882F1 /* ViewController.m */; };
+		76AC78B11E64306B00A882F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AC78AF1E64306B00A882F1 /* Main.storyboard */; };
+		76AC78B31E64306B00A882F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AC78B21E64306B00A882F1 /* Assets.xcassets */; };
+		76AC78B61E64306B00A882F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AC78B41E64306B00A882F1 /* LaunchScreen.storyboard */; };
+		76AC78C11E64306B00A882F1 /* TRZXDVSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78C01E64306B00A882F1 /* TRZXDVSwitchTests.m */; };
+		76AC78CC1E64306B00A882F1 /* TRZXDVSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC78CB1E64306B00A882F1 /* TRZXDVSwitchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AC78BD1E64306B00A882F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AC789B1E64306B00A882F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AC78A21E64306B00A882F1;
+			remoteInfo = TRZXDVSwitch;
+		};
+		76AC78C81E64306B00A882F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76AC789B1E64306B00A882F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AC78A21E64306B00A882F1;
+			remoteInfo = TRZXDVSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76AC78A31E64306B00A882F1 /* TRZXDVSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXDVSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AC78A71E64306B00A882F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76AC78A91E64306B00A882F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76AC78AA1E64306B00A882F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76AC78AC1E64306B00A882F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76AC78AD1E64306B00A882F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76AC78B01E64306B00A882F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76AC78B21E64306B00A882F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AC78B51E64306B00A882F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AC78B71E64306B00A882F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AC78BC1E64306B00A882F1 /* TRZXDVSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXDVSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AC78C01E64306B00A882F1 /* TRZXDVSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitchTests.m; sourceTree = "<group>"; };
+		76AC78C21E64306B00A882F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AC78C71E64306B00A882F1 /* TRZXDVSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXDVSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AC78CB1E64306B00A882F1 /* TRZXDVSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXDVSwitchUITests.m; sourceTree = "<group>"; };
+		76AC78CD1E64306B00A882F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AC78A01E64306B00A882F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78B91E64306B00A882F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78C41E64306B00A882F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AC789A1E64306B00A882F1 = {
+			isa = PBXGroup;
+			children = (
+				76AC78A51E64306B00A882F1 /* TRZXDVSwitch */,
+				76AC78BF1E64306B00A882F1 /* TRZXDVSwitchTests */,
+				76AC78CA1E64306B00A882F1 /* TRZXDVSwitchUITests */,
+				76AC78A41E64306B00A882F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76AC78A41E64306B00A882F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78A31E64306B00A882F1 /* TRZXDVSwitch.app */,
+				76AC78BC1E64306B00A882F1 /* TRZXDVSwitchTests.xctest */,
+				76AC78C71E64306B00A882F1 /* TRZXDVSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AC78A51E64306B00A882F1 /* TRZXDVSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78A91E64306B00A882F1 /* AppDelegate.h */,
+				76AC78AA1E64306B00A882F1 /* AppDelegate.m */,
+				76AC78AC1E64306B00A882F1 /* ViewController.h */,
+				76AC78AD1E64306B00A882F1 /* ViewController.m */,
+				76AC78AF1E64306B00A882F1 /* Main.storyboard */,
+				76AC78B21E64306B00A882F1 /* Assets.xcassets */,
+				76AC78B41E64306B00A882F1 /* LaunchScreen.storyboard */,
+				76AC78B71E64306B00A882F1 /* Info.plist */,
+				76AC78A61E64306B00A882F1 /* Supporting Files */,
+			);
+			path = TRZXDVSwitch;
+			sourceTree = "<group>";
+		};
+		76AC78A61E64306B00A882F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78A71E64306B00A882F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76AC78BF1E64306B00A882F1 /* TRZXDVSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78C01E64306B00A882F1 /* TRZXDVSwitchTests.m */,
+				76AC78C21E64306B00A882F1 /* Info.plist */,
+			);
+			path = TRZXDVSwitchTests;
+			sourceTree = "<group>";
+		};
+		76AC78CA1E64306B00A882F1 /* TRZXDVSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76AC78CB1E64306B00A882F1 /* TRZXDVSwitchUITests.m */,
+				76AC78CD1E64306B00A882F1 /* Info.plist */,
+			);
+			path = TRZXDVSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AC78A21E64306B00A882F1 /* TRZXDVSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AC78D01E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitch" */;
+			buildPhases = (
+				76AC789F1E64306B00A882F1 /* Sources */,
+				76AC78A01E64306B00A882F1 /* Frameworks */,
+				76AC78A11E64306B00A882F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXDVSwitch;
+			productName = TRZXDVSwitch;
+			productReference = 76AC78A31E64306B00A882F1 /* TRZXDVSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76AC78BB1E64306B00A882F1 /* TRZXDVSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AC78D31E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchTests" */;
+			buildPhases = (
+				76AC78B81E64306B00A882F1 /* Sources */,
+				76AC78B91E64306B00A882F1 /* Frameworks */,
+				76AC78BA1E64306B00A882F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AC78BE1E64306B00A882F1 /* PBXTargetDependency */,
+			);
+			name = TRZXDVSwitchTests;
+			productName = TRZXDVSwitchTests;
+			productReference = 76AC78BC1E64306B00A882F1 /* TRZXDVSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76AC78C61E64306B00A882F1 /* TRZXDVSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AC78D61E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchUITests" */;
+			buildPhases = (
+				76AC78C31E64306B00A882F1 /* Sources */,
+				76AC78C41E64306B00A882F1 /* Frameworks */,
+				76AC78C51E64306B00A882F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76AC78C91E64306B00A882F1 /* PBXTargetDependency */,
+			);
+			name = TRZXDVSwitchUITests;
+			productName = TRZXDVSwitchUITests;
+			productReference = 76AC78C71E64306B00A882F1 /* TRZXDVSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AC789B1E64306B00A882F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rhino;
+				TargetAttributes = {
+					76AC78A21E64306B00A882F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					76AC78BB1E64306B00A882F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76AC78A21E64306B00A882F1;
+					};
+					76AC78C61E64306B00A882F1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76AC78A21E64306B00A882F1;
+					};
+				};
+			};
+			buildConfigurationList = 76AC789E1E64306B00A882F1 /* Build configuration list for PBXProject "TRZXDVSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AC789A1E64306B00A882F1;
+			productRefGroup = 76AC78A41E64306B00A882F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AC78A21E64306B00A882F1 /* TRZXDVSwitch */,
+				76AC78BB1E64306B00A882F1 /* TRZXDVSwitchTests */,
+				76AC78C61E64306B00A882F1 /* TRZXDVSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AC78A11E64306B00A882F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AC78B61E64306B00A882F1 /* LaunchScreen.storyboard in Resources */,
+				76AC78B31E64306B00A882F1 /* Assets.xcassets in Resources */,
+				76AC78B11E64306B00A882F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78BA1E64306B00A882F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78C51E64306B00A882F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AC789F1E64306B00A882F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AC78AE1E64306B00A882F1 /* ViewController.m in Sources */,
+				76AC78AB1E64306B00A882F1 /* AppDelegate.m in Sources */,
+				76AC78A81E64306B00A882F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78B81E64306B00A882F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AC78C11E64306B00A882F1 /* TRZXDVSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AC78C31E64306B00A882F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AC78CC1E64306B00A882F1 /* TRZXDVSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76AC78BE1E64306B00A882F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AC78A21E64306B00A882F1 /* TRZXDVSwitch */;
+			targetProxy = 76AC78BD1E64306B00A882F1 /* PBXContainerItemProxy */;
+		};
+		76AC78C91E64306B00A882F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76AC78A21E64306B00A882F1 /* TRZXDVSwitch */;
+			targetProxy = 76AC78C81E64306B00A882F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76AC78AF1E64306B00A882F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AC78B01E64306B00A882F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76AC78B41E64306B00A882F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AC78B51E64306B00A882F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76AC78CE1E64306B00A882F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AC78CF1E64306B00A882F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76AC78D11E64306B00A882F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXDVSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76AC78D21E64306B00A882F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TRZXDVSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76AC78D41E64306B00A882F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXDVSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXDVSwitch.app/TRZXDVSwitch";
+			};
+			name = Debug;
+		};
+		76AC78D51E64306B00A882F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TRZXDVSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRZXDVSwitch.app/TRZXDVSwitch";
+			};
+			name = Release;
+		};
+		76AC78D71E64306B00A882F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXDVSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXDVSwitch;
+			};
+			name = Debug;
+		};
+		76AC78D81E64306B00A882F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TRZXDVSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipo.TRZXDVSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TRZXDVSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AC789E1E64306B00A882F1 /* Build configuration list for PBXProject "TRZXDVSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC78CE1E64306B00A882F1 /* Debug */,
+				76AC78CF1E64306B00A882F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AC78D01E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC78D11E64306B00A882F1 /* Debug */,
+				76AC78D21E64306B00A882F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76AC78D31E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC78D41E64306B00A882F1 /* Debug */,
+				76AC78D51E64306B00A882F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76AC78D61E64306B00A882F1 /* Build configuration list for PBXNativeTarget "TRZXDVSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC78D71E64306B00A882F1 /* Debug */,
+				76AC78D81E64306B00A882F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AC789B1E64306B00A882F1 /* Project object */;
+}
